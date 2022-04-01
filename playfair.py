@@ -1,10 +1,7 @@
 import argparse
-#from hashlib import new
-#from ntpath import join
 import string
-#from turtle import position
 
-def parse_args():
+def parse_argst():
     arg_parser = argparse.ArgumentParser()
     arg_parser.add_argument('key')
     arg_parser.add_argument('message')
