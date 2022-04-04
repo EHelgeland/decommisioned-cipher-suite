@@ -1,7 +1,7 @@
 import argparse
 import string
 
-def parse_argst():
+def parse_args():
     arg_parser = argparse.ArgumentParser()
     arg_parser.add_argument('key')
     arg_parser.add_argument('message')
